@@ -1,17 +1,17 @@
 # MetaFilter
 Customizable metadata filters for exporting images in Adobe Lightroom
 
-#### Features
+### Features
   * Export images with or without metadata
   * Customizable XMP, EXIF and IPTC data
   * User defined metadata
 
 ## Setup
-#### Requirements
+### Requirements
   * Adobe Lightroom 3 or later
   * Exiftool (included)
 
-#### Installation
+### Installation
   * Download the latest release and extract the content to any folder
   * In Lightroom select `File` > `Plug-in Manager` and click `Add`
   * Select the folder `MetaFilter.lrplugin` you extracted earlier
@@ -22,7 +22,7 @@ In order to export images with MetaFilter, follow these steps:
   * Choose MetaFilter in `Post-Process Actions` and click `Insert`
   * Customize the metadata to your needs and then click `Export`
 
-#### Advanced Customization
+### Advanced Customization
 If you want to add or change metadata filters you can do so by editing the `metadata.xml` file that can be found in the `lib` folder.
 
 For more information, read the Exiftool docs on [XMP](https://www.exiftool.org/TagNames/XMP.html), [EXIF](https://www.exiftool.org/TagNames/EXIF.html) and [IPTC](https://www.exiftool.org/TagNames/IPTC.html).
