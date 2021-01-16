@@ -12,8 +12,7 @@ Customizable metadata filters for exporting images in Adobe Lightroom
   * Exiftool (included)
 
 #### Installation
-  * Download the [latest release](/../../releases/)
-  * Extract the content to a folder
+  * Download the latest release and extract the content to any folder
   * In Lightroom select `File` > `Plug-in Manager` and click `Add`
   * Select the folder `MetaFilter.lrplugin` you extracted earlier
 
