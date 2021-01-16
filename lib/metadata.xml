@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Updated: 2010-12-03 10:03
+-->
+<root>
+	<metadata>
+		<row id="1">
+			<group>
+				<title>Basic Information</title>
+				<items>
+					<exif arg="exif:all">EXIF</exif>
+					<iptc arg="iptc:all">IPTC</iptc>
+					<xmp arg="xmp:all">XMP</xmp>
+					<iccprofile arg="icc_profile:all">ICC Profile</iccprofile>
+				</items>
+			</group>
+		</row>
+		<row id="2">
+			<group>
+				<title>Content</title>
+				<items>
+					<title arg="iptc:objectname xmp:title">Title</title>
+					<description arg="exif:imagedescription iptc:caption-abstract xmp:description">Description</description>
+					<keywords arg="iptc:keywords xmp:subject">Keywords</keywords>
+					<rating arg="xmp:rating">Rating</rating>
+					<label arg="xmp:label">Label</label>
+					<headline arg="iptc:headline xmp:headline">Headline</headline>
+					<subjectcode arg="xmp:subjectcode">IPTC Subject Code</subjectcode>
+					<descriptionwriter arg="iptc:writer-editor xmp:captionwriter">Description Writer</descriptionwriter>
+					<categories arg="iptc:category xmp:category iptc:supplementalcategories xmp:supplementalcategories">Categories</categories>
+				</items>
+			</group>
+			<group>
+				<title>Image</title>
+				<items>
+					<intellectualgenre arg="xmp:intellectualgenre">Intellectual Genre</intellectualgenre>
+					<scenecode arg="xmp:scene">IPTC Scene Code</scenecode>
+					<sublocation arg="iptc:sub-location xmp:location">Sublocation</sublocation>
+					<imagecity arg="iptc:city xmp:city">City</imagecity>
+					<imageregion arg="iptc:province-state xmp:state">State / Province</imageregion>
+					<imagecountry arg="iptc:country-primarylocationname xmp:country">Country</imagecountry>
+					<imagecountrycode arg="iptc:country-primarylocationcode xmp:countrycode">ISO Country Code</imagecountrycode>
+				</items>
+			</group>
+			<group>
+				<title>Workflow</title>
+				<items>
+					<jobreference arg="iptc:originaltransmissionreference xmp:transmissionreference">Job Identifier</jobreference>
+					<instructions arg="iptc:specialinstructions xmp:instructions">Instructions</instructions>
+					<credits arg="iptc:credit xmp:credit">Credits</credits>
+					<source arg="iptc:source xmp:source">Source</source>
+				</items>
+			</group>
+			<group>
+				<title>Copyright</title>
+				<items>
+					<copyright arg="exif:copyright iptc:copyrightnotice xmp:rights">Copyright</copyright>
+					<copyrightstatus arg="xmp:marked photoshop:copyrightflag">Copyright Status</copyrightstatus>
+					<usageterms arg="xmp:usageterms">Rights Usage Terms</usageterms>
+					<copyrighturl arg="xmp:webstatement photoshop:url">Copyright Info URL</copyrighturl>
+				</items>
+			</group>
+			<group>
+				<title>Creator</title>
+				<items>
+					<creator arg="iptc:by-line xmp:creator">Name</creator>
+					<creatortitle arg="iptc:by-linetitle xmp:authorsposition">Job Title</creatortitle>
+					<creatortelephone arg="xmp:creatorworktelephone">Telephone</creatortelephone>
+					<creatoremail arg="xmp:creatorworkemail">E-Mail</creatoremail>
+					<creatorurl arg="xmp:creatorworkurl">Website URL</creatorurl>
+				</items>
+			</group>
+			<group>
+				<title>Creator Address</title>
+				<items>
+					<creatoraddress arg="xmp:creatoraddress">Address</creatoraddress>
+					<creatorcity arg="xmp:creatorcity">City</creatorcity>
+					<creatorpostalcode arg="xmp:creatorpostalcode">Postal Code</creatorpostalcode>
+					<creatorregion arg="xmp:creatorregion">State / Province</creatorregion>
+					<creatorcountry arg="xmp:creatorcountry">Country</creatorcountry>
+				</items>
+			</group>
+		</row>
+	</metadata>
+	<presets>
+		<!-- preset list -->
+	</presets>
+</root>
